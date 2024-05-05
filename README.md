@@ -7,20 +7,20 @@ This Python program is designed to gather information about a given IP address o
 
 ## Usage
 
-1. **Input**: 
+1. Input: 
    - Run the program and provide an IP address or domain name when prompted.
 
-2. **Ping Analysis**:
+2. Ping Analysis:
    - If an IP address is provided, it checks if it's valid.
    - If a domain name is provided, it performs a ping to get information and unique IP addresses associated with it.
 
-3. **NSLookup**:
+3. NSLookup:
    - Performs DNS lookups for the provided host, retrieving information about name servers (`ns`) and mail exchange servers (`mx`).
 
-4. **Network Tracing**:
+4. Network Tracing:
    - Traces the DNS path (`dig +trace`) and network path (`traceroute`) to the provided host.
 
-5. **Nmap Scan**:
+5. Nmap Scan:
    - Prompts the user to choose between scanning all ports or only open ports.
    - Executes an `nmap` scan with the chosen options on the provided target.
 
